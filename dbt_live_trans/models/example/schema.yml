@@ -1,0 +1,102 @@
+
+version: 2
+
+models:
+    - name: session_stats
+      description: "A starter dbt model of session_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: traffic_source_stats
+      description: "A starter dbt model of traffic_source_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: campaign_stats
+      description: "A starter dbt model of campaign_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: geo_network_stats
+      description: "A starter dbt model of geo_network_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: user_explorer_stats
+      description: "A starter dbt model of user_explorer_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: demographic_stats
+      description: "A starter dbt model of demographic_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: device_browser_stats
+      description: "A starter dbt model of device_browser_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: benchmark_stats
+      description: "A starter dbt model of benchmark_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: page_track_stats
+      description: "A starter dbt model of page_track_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: page_value_stats
+      description: "A starter dbt model of page_value_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: ecommerce__metrics_stats
+      description: "A starter dbt model of ecommerce__metrics_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: adwords_stats
+      description: "A starter dbt model of adwords_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: ecommerce_stats
+      description: "A starter dbt model of ecommerce_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+    - name: ecommerce_new_stats
+      description: "A starter dbt model of ecommerce_new_stats"
+      columns:
+          - name: _airbyte_ab_id
+            description: "The primary key for this table"
+            tests:
+                - unique

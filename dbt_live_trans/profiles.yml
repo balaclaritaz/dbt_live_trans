@@ -1,0 +1,17 @@
+dbt_live_trans:
+  outputs:
+
+    dev:
+      type: postgres
+      host: 159.65.57.212
+      user: test
+      password: test
+      port: 5432
+      dbname: cdp_data
+      schema: dbt_live_trans     
+      threads: 10
+      keepalives_idle: 0
+      connect_timeout: 60
+           
+
+  target: dev
